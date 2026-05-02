@@ -1,5 +1,4 @@
 # Active Directory Hardening Lab
-This repository documents the architecture and configuration of a simulated enterprise Active Directory environment. This environment is built to mirror real-world corporate infrastructure, demonstrating hands-on experience with Identity and Access Management (IAM), core network services (DNS/DHCP), and proactive endpoint security hardening using Group Policy Objects (GPOs).
 
 ## Objective
 The primary goal of this project is to engineer a centralized identity management environment and enforce security baseline configurations via Group Policy.
