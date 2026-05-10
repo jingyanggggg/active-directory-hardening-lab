@@ -16,6 +16,7 @@ The primary goal of this project is to engineer a centralized identity managemen
 2. **Endpoint Client (Windows 11 Enterprise)**
    - **Hostname:** `W11-01`
    - **IP Address:** `192.168.10.100` (Assigned dynamically via DC-01 DHCP Scope)
+![Virtual Network Topology](virtual-network-topology.png)
 
 ## Security Controls Applied
 A dedicated modular Group Policy Object (GPO) named `SEC-Endpoint-Hardening` was created and linked to the domain to enforce the following enterprise security baselines:
