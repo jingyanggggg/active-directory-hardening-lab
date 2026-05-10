@@ -25,7 +25,7 @@ A Group Policy Object (GPO) named `SEC-Endpoint-Hardening` was created and linke
 1. **12-Character Password Complexity**
    - Enforced a minimum password length of 12 characters and enabled strict complexity requirements. This protects user identities by mitigating brute-force, dictionary, and password-spraying attacks.
 2. **Removable Media Restrictions (USB Deny All)**
-   - Denied read/write/execute access to all removable storage classes.This prevents physical data exfiltration by insider threats and mitigates the risk of malware introduction via malicious USB drops.
+   - Denied read/write/execute access to all removable storage classes. This prevents physical data exfiltration by insider threats and mitigates the risk of malware introduction via malicious USB drops.
 
 ---
 
