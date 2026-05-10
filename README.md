@@ -16,17 +16,16 @@ The primary goal of this project is to engineer a centralized identity managemen
 2. **Endpoint Client (Windows 11 Enterprise)**
    - **Hostname:** `W11-01`
    - **IP Address:** `192.168.10.100` (Assigned dynamically via DC-01 DHCP Scope)
+
 ![Virtual Network Topology](virtual-network-topology.png)
 
 ## Security Controls Applied
-A dedicated modular Group Policy Object (GPO) named `SEC-Endpoint-Hardening` was created and linked to the domain to enforce the following enterprise security baselines:
+A Group Policy Object (GPO) named `SEC-Endpoint-Hardening` was created and linked to the domain to enforce the following enterprise security baselines:
 
 1. **12-Character Password Complexity**
-   - *Configuration:* Enforced a minimum password length of 12 characters and enabled strict complexity requirements.
-   - *Enterprise Value:* Protects user identities by mitigating brute-force, dictionary, and password-spraying attacks.
+   - *Configuration:* Enforced a minimum password length of 12 characters and enabled strict complexity requirements. This protects user identities by mitigating brute-force, dictionary, and password-spraying attacks.
 2. **Removable Media Restrictions (USB Deny All)**
-   - *Configuration:* Denied read/write/execute access to all removable storage classes.
-   - *Enterprise Value:* Prevents physical data exfiltration by insider threats and mitigates the risk of malware introduction via malicious USB drops.
+   - *Configuration:* Denied read/write/execute access to all removable storage classes.This prevents physical data exfiltration by insider threats and mitigates the risk of malware introduction via malicious USB drops.
 
 ---
 
