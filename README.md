@@ -23,9 +23,9 @@ The primary goal of this project is to engineer a centralized identity managemen
 A Group Policy Object (GPO) named `SEC-Endpoint-Hardening` was created and linked to the domain to enforce the following enterprise security baselines:
 
 1. **12-Character Password Complexity**
-   - *Configuration:* Enforced a minimum password length of 12 characters and enabled strict complexity requirements. This protects user identities by mitigating brute-force, dictionary, and password-spraying attacks.
+   - Enforced a minimum password length of 12 characters and enabled strict complexity requirements. This protects user identities by mitigating brute-force, dictionary, and password-spraying attacks.
 2. **Removable Media Restrictions (USB Deny All)**
-   - *Configuration:* Denied read/write/execute access to all removable storage classes.This prevents physical data exfiltration by insider threats and mitigates the risk of malware introduction via malicious USB drops.
+   - Denied read/write/execute access to all removable storage classes.This prevents physical data exfiltration by insider threats and mitigates the risk of malware introduction via malicious USB drops.
 
 ---
 
